@@ -1,0 +1,82 @@
+$primary: #5265E1;
+$secondary: #FA5959;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary
+);
+
+$custom-colors: (
+  "grisclar": #f7f7f5
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+h1 h2 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+}
+
+;
+
+p {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+}
+
+;
+
+$input-btn-font-family: "Rubik", sans-serif;
+
+$headings-font-family: "Rubik", sans-serif;
+
+.img {
+  position: absolute;
+  z-index: 1;
+}
+
+;
+
+.shape {
+  background: $primary;
+  position: absolute;
+  z-index: -1;
+  right: -60%;
+  bottom: 10%;
+  width: 100%;
+  height: 40%;
+  border-radius: 150px 0 0 150px;
+}
+
+.shape-2 {
+  background: $primary;
+  position: absolute;
+  z-index: -1;
+  right: 60%;
+  bottom: -100%;
+  width: 100%;
+  height: 40%;
+  border-radius: 0 150px 150px 0;
+}
+
+;
+@media (max-width:576px) {
+  .shape {
+    bottom: 30%;
+    right: -20%
+  };
+.shape-2 {
+  bottom: -115%;
+  right: 20%;
+}
+}
+
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
+
+:root {
+  --bs-body-font-family: "Rubik", sans-serif;
+}
+
+;
