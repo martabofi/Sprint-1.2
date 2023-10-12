@@ -19,9 +19,9 @@ p {
   background: #5265E1;
   position: absolute;
   z-index: -1;
-  right: -60%;
+  right: 0%;
   bottom: 10%;
-  width: 100%;
+  width: 50%;
   height: 40%;
   border-radius: 150px 0 0 150px;
 }
@@ -37,14 +37,46 @@ p {
   border-radius: 0 150px 150px 0;
 }
 
+.container-bg-color {
+  background-color: #5265E1;
+}
+
+.spacedText {
+  letter-spacing: 0.5rem;
+  font-size: 13px;
+  color: white;
+}
+
+.h1-footer {
+  color: white;
+}
+
+.container-footer-bg-color {
+  background-color: hsl(229, 31%, 21%);
+}
+
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #FA5959 !important;
+}
+
 @media (max-width: 576px) {
   .shape {
     bottom: 30%;
-    right: -20%;
+    right: 0%;
+    width: 80%;
   }
   .shape-2 {
     bottom: -115%;
     right: 20%;
+  }
+  .btn-form {
+    width: 100%;
   }
 }
 /*!

@@ -55,6 +55,46 @@ p {
   background-color: hsl(229, 31%, 21%);
 }
 
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #FA5959 !important;
+}
+
+.accordion-button:hover {
+  color: #FA5959 !important;
+}
+
+.btn-outline-success:hover {
+  background-color: white !important;
+  border-color: #FA5959;
+  border-width: 2px;
+  color: #FA5959 !important;
+}
+
+.btn-chrome:hover {
+  background-color: white !important;
+  border-color: #5265E1;
+  border-width: 2px;
+  color: #5265E1 !important;
+}
+
+.btn-firefox:hover {
+  border-color: #000 !important;
+  border-width: 2px;
+}
+
+.btn-install:hover {
+  background-color: white !important;
+  border-color: #5265E1;
+  border-width: 2px;
+  color: #5265E1 !important;
+}
+
 @media (max-width: 576px) {
   .shape {
     bottom: 30%;

@@ -59,6 +59,19 @@ $headings-font-family: "Rubik", sans-serif;
   border-radius: 0 150px 150px 0;
 }
 
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: $secondary !important;
+}
+
+;
+
+
 ;
 @media (max-width:576px) {
   .shape {

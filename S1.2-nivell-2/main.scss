@@ -1,6 +1,5 @@
 $primary: #5265E1;
 $secondary: #FA5959;
-$grisclar: #f7f7f5;
 
 $theme-colors: (
   "primary": $primary,
@@ -49,8 +48,6 @@ $headings-font-family: "Rubik", sans-serif;
   border-radius: 150px 0 0 150px;
 }
 
-;
-
 .shape-2 {
   background: $primary;
   position: absolute;
@@ -62,13 +59,9 @@ $headings-font-family: "Rubik", sans-serif;
   border-radius: 0 150px 150px 0;
 }
 
-;
-
 .container-bg-color {
   background-color: $primary;
 }
-
-;
 
 
 .spacedText {
@@ -77,57 +70,25 @@ $headings-font-family: "Rubik", sans-serif;
   color: white;
 }
 
-;
-
 .h1-footer {
   color: white;
-}
-
-;
+};
 
 .container-footer-bg-color {
   background-color: hsl(229deg, 31%, 21%);
 }
 
-;
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+  font-weight: bold;
+}
 
 .nav-link:hover {
   color: $secondary !important;
 }
 
 ;
-
-.accordion-button:hover {
-  color: $secondary !important;
-}
-
-.btn-outline-success:hover {
-  background-color: white !important;
-  border-color: $secondary;
-  border-width: 2px;
-  color: $secondary !important;
-}
-
-;
-
-.btn-chrome:hover {
-  background-color: white !important;
-  border-color: $primary;
-  border-width: 2px;
-  color: $primary !important;
-}
-
-.btn-firefox:hover {
-  border-color: #000 !important;
-  border-width: 2px;
-};
-
-.btn-install:hover {
-  background-color: white !important;
-  border-color: $primary;
-  border-width: 2px;
-  color: $primary !important;
-};
 
 @media (max-width:576px) {
   .shape {
@@ -143,17 +104,13 @@ $headings-font-family: "Rubik", sans-serif;
     right: 20%;
   }
 
-  ;
-
   .btn-form {
     width: 100%;
   }
 
-  ;
-
 }
 
-;
+
 
 
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
